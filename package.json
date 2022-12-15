@@ -1,0 +1,31 @@
+{
+  "name": "kata-gol-typescriptandtdd",
+  "version": "1.0.0",
+  "description": "Kata exercise to learn&amp;practice typescript and tdd on the Conway's GameOfLife",
+  "main": "app.js",
+  "scripts": {
+    "build": "eslint . --ext .ts && tsc",
+    "lint": "eslint . --ext .ts",
+    "test": "jest",
+    "dev": "ts-node-dev --respawn ./src/app.ts",
+    "start": "ts-node ./src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jankudev/kata-gol-typescriptandtdd.git"
+  },
+  "author": "Tomas Janku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jankudev/kata-gol-typescriptandtdd/issues"
+  },
+  "homepage": "https://github.com/jankudev/kata-gol-typescriptandtdd#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.11.15",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1"
+  }
+}
